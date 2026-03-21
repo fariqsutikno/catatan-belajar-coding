@@ -51,3 +51,7 @@ Nah agar rumus tersebut tetap relevan dengan situasi yang ada, maka ia harus raj
 
 ### Referensi
 - [Machine Learning Learning Course by Google](https://developers.google.com/machine-learning/intro-to-ml/what-is-ml?hl=id)
+- [Guide to Machine Learning 2026 by IBM](https://www.ibm.com/id-id/think/machine-learning)
+- [What Is Machine Learning - Amazon AWS] (https://aws.amazon.com/what-is/machine-learning/)
+- [What Is Machine Learning - Google Cloud](https://cloud.google.com/learn/what-is-machine-learning)
+- [What Is Machine Learning - Datacamp](https://www.datacamp.com/blog/what-is-machine-learning)
