@@ -1,6 +1,29 @@
-# Selamat Datang di Catatan Belajar Fariq
+# Catatan Belajar Fariq
 
-Repository ini digunakan untuk mendokumentasikan catatan belajar Fariq berkaitan dengan coding.
+Hola! Ini adalah tempat gw mendokumentasikan semua hal yang gw pelajari soal coding, dari yang fundamental sampai yang spesifik. Dibuat biar gw (dan mungkin lo juga) bisa balik lagi kalau lupa.
 
-Adapun repository yang sudah tersedia saat ini:
-- Machine Learning
+> Masih terus diupdate. Kalau ada yang kosong, berarti gw belum sampai sana. 😅
+
+---
+
+## Topik
+
+### 🤖 Machine Learning
+Mulai dari konsep dasar statistik sampai implementasi model.
+- [Machine Learning](machine-learning/)
+
+---
+
+## Status Topik
+
+| Topik | Status |
+|-------|--------|
+| Machine Learning | 🚧 On Progress |
+
+---
+
+## Cara Baca Catatan Ini
+
+Tiap topik punya `README.md`-nya sendiri yang isinya daftar subtopik + urutan belajar yang disaranin. Jadi kalau mau mulai dari nol di satu topik, buka README folder-nya dulu.
+
+---
