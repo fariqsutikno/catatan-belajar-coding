@@ -1,15 +1,14 @@
-# Catatan Belajar Machine Learning
+# Intro to Machine Learning
 
-## Pengantar Machine Learning
+## Apa Itu Machine Learning?
 
-### Apa Itu Machine Learning?
+Menurut Google, ML is the **process of training** a piece of software, called a **model**, to make useful **predictions** or generate content (like text, images, audio, or video) from data. 
 
-Menurut Google, ML is the **process of training** a piece of software, called a **model**, to make useful **predictions** or generate content (like text, images, audio, or video) from data.
+Atau jika kita terjemahkan, ML adalah **proses melatih** sebuah software, yang disebut **model**, untuk membuat **prediksi** yang berguna atau membuat konten (seperti teks, gambar, audio, atau video) dari data.
 
-Kata kuncinya terletak di: proses melatih, model, dan prediksi. Yang mana, berarti machine learning itu proses untuk melatih model itu. 
+Kata kuncinya terletak di: proses melatih, model, dan prediksi. Yang mana, berarti machine learning itu proses untuk melatih model itu.
 
-Mungkin kalau kita ibaratkan, model itu bagaikan otak manusia, yang mampu membuahkan sebuah pikiran berupa prediksi ataupun konten tertentu.
-
+### Apa Itu Model?
 Adapun model itu simpelnya, hasil belajar yang sudah disimpan, dari semua pola yang dipelajari dari data, kemudian dikemas menjadi sesuatu yang bisa langsung dipakai untuk memprediksi hal baru nantinya.
 
 Dalam supervised ML: Model akan mengambil contoh sebagai input, kemudian menyimpulkan prediksi sebagai output.
@@ -17,34 +16,35 @@ Dalam supervised ML: Model akan mengambil contoh sebagai input, kemudian menyimp
 Adapun dalam unsupervised ML: model akan memetakan contoh input ke kelompok yang paling sesuai.
 
 
-**Bagaimana cara kita memahami pengertian model menurut Google?**
+#### Bagaimana cara kita memahami pengertian model menurut Google?
 
-Menurut Google, model secara umum adalah konstruksi matematika apa pun yang memproses data input dan menampilkan output. Dengan kata lain, model adalah kumpulan parameter dan struktur yang diperlukan agar sistem dapat membuat prediksi.
+Menurut Google, model secara umum adalah konstruksi matematika apa pun yang memproses data input dan menampilkan output. Singkatnya, model adalah **struktur + kumpulan parameter** yang bekerja sama untuk membuat prediksi.
 
-Oke, gini gambarannya, sebenarnya, model itu dasarnya hanya fungsi matematika:
-f(x) = y
-Dengan fungsi ini, input akan masuk, dan akan keluar menjadi output.
+Konkretnya, model itu dasarnya kayak rumus matematika dengan variabel yang belum diisi:
+> harga = (a × luas) + b
 
-Kemudian, ia dapat berkembang lebih luas, yaitu kumpulan parameter.
-Yang tadinya rumusnya adalah f(x) = y. Kemudian ia menjadi y = ax + b.
-- y berperan sebagai output (hasil prediksi)
-- x berperan sebagai input (data)
-- a dan b ini yang dimaksud dari kumpulan parameter.
+Strukturnya sudah ada. Tapi nilai a dan b (yang disebut parameter atau bobot) itu masih kosong alias random di awal.
 
-Nilai a dan b ini yang dipelajari dari training. Setelah training selesai, nilai a dan b itu kemudian dibekukan dan disimpan, dan inilah yang disebut sebagai model.
+Nah, proses **melatih model** maksudnya adalah mencari nilai a dan b yang paling pas, supaya prediksinya akurat.
 
-Contoh implementasinya:
+Misalnya, setelah training, mesin menemukan bahwa **a = 5 juta** dan **b = 10 juta**. Maka, kalau ada user minta prediksi harga rumah 200m^2, mesin tinggal masukkan ke rumus aja:
 
-Bayangkan kamu mau membuat rumus untuk menebak harga rumah:
-> harga = (a x luas) + b
+> harga = (5.000.000 × 200) + 10.000.000 = Rp1.010.000.000
 
-Sebelum training, kita ga tahu, berapa nilai a dan b.
-Namun setelah training, machine akan belajar berapa nilai yang tepat untuk a dan b. Misalkan, a nilainya 5 juta, dan b nilainya 10 juta.
+Nah di sini, model sebelum dan sesudah training bukan model yang berbeda. Strukturnya sama, tapi parameternya sudah terisi optimal.
 
-Sehingga jika kemudian di suatu hari, user meminta sistem untuk membuat prediksi dari harga rumah dengan luas 200m2, maka ia akan memasukkannya ke dalam rumus tersebut. 
+> **Penting untuk dicatat!**
+> 
+> Parameter tidak berdiri sendiri. Nilai a = 5 juta tidak ada artinya tanpa tahu ia masuk ke rumus mana.
+> Makanya, ``model = struktur + parameter``, keduanya adalah satu kesatuan yang tak terpisahkan.
 
-Nah agar rumus tersebut tetap relevan dengan situasi yang ada, maka ia harus rajin ditraining. Proses training inilah yang disebut sebagai machine learning.
+Agar model tersebut dapat tetap relevan seiring waktu, ia perlu terus dilatih ulang dengan data baru. Proses inilah yang disebut sebagai machine learning.
 
+So, melatih model itu maksudnya menyesuaikan parameter sampai hasil prediksinya seakurat mungkin. Dan itu semua dilakukan otomatis dengan matematika, bukan manual satu per satu. Inilah yang menyebabkan machine learning tampak ajaib.
+
+---
+
+## Lain - Lain
 ### To Do List
 -[] Apa bedanya parameter dan hyperparameter?
 -[] Kenapa model bisa "salah" meskipun sudah ditraining
