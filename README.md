@@ -4,26 +4,17 @@ Hola! Ini adalah tempat gw mendokumentasikan semua hal yang gw pelajari soal cod
 
 > Masih terus diupdate. Kalau ada yang kosong, berarti gw belum sampai sana. 😅
 
----
-
 ## Topik
 
-### 🤖 Machine Learning
-Mulai dari konsep dasar statistik sampai implementasi model.
+Daftar Topik Pembahasan:
 - [Machine Learning](machine-learning/)
-
----
 
 ## Status Topik
 
-| Topik | Status |
+| Topik | Catatan |
 |-------|--------|
-| Machine Learning | 🚧 On Progress |
-
----
+| [Machine Learning](machine-learning/) | 1 catatan |
 
 ## Cara Baca Catatan Ini
 
 Tiap topik punya `README.md`-nya sendiri yang isinya daftar subtopik + urutan belajar yang disaranin. Jadi kalau mau mulai dari nol di satu topik, buka README folder-nya dulu.
-
----
